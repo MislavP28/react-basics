@@ -8,3 +8,4 @@ class ClassComponentGreeting extends React.Component
   }
 }
 export default ClassComponentGreeting
+jhjh
