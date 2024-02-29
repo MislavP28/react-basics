@@ -17,7 +17,7 @@ import Day4Component from './komponente/day 4/day4Component';
 // FUNCTION APP
 function App() {
 
-
+//komentarasjkljaskd
 const StringElement = "Hello for Jsx"
 const name = "Mislav";//moramo pozvati prije funkcije i varijable
 const lastName = "Pavičić";
