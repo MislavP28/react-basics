@@ -1,4 +1,6 @@
 // Function definition component
+import "./stylingSASS.scss"
+
 function FunctionComponentGreeting()
 {
     const styles =

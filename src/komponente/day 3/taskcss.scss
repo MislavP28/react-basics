@@ -1,0 +1,84 @@
+.background {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: lavender;
+
+    &.green {
+        background-color: seagreen;
+    }
+
+    &.blue {
+        background-color: dodgerblue;
+    }
+
+    &.orange {
+        background-color: orange;
+    }
+}
+
+.display {
+
+    &.flex {
+        display: flex;
+    }
+
+    &.alignCent {
+        align-items: center;
+    }
+
+    &.justCent {
+        justify-content: center;
+    }
+}
+
+.menus {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.margin {
+    &.top {
+        margin-top: 20px;
+    }
+
+    &.bottom {
+        margin-bottom: 20px;
+    }
+
+    &.left {
+        margin-left: 20px;
+    }
+
+    &.small {
+        margin: 10px;
+    }
+}
+
+.layoutAll {
+    margin: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    &.justify {
+        text-align: justify;
+    }
+}
+
+.linkClean {
+    a:link {
+        text-decoration: none;
+    }
+}

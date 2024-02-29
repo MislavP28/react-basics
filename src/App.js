@@ -5,6 +5,14 @@ import MyGoal from './komponente/MyGoal';
 import FunctionComponentGreeting from './komponente/FunctionDefinitionCOmponent';
 import ClassComponentGreeting from './komponente/ClassComponent';
 import ConstantFunctionGreetings from './komponente/ConstantFunction';
+import LayoutHeader from './komponente/day 3/layoutheader';
+import LayoutBody from './komponente/day 3/layoutbody';
+import LayoutFooter from './komponente/day 3/layoutfooter';
+import "./komponente/day 3/taskcss.scss";
+import { PropComponent } from './komponente/day 3/propvjezba';
+import MainComponent from './komponente/day 3/day3component-ponavljanje';
+import Day4Component from './komponente/day 4/day4Component';
+
 
 // FUNCTION APP
 function App() {
@@ -32,6 +40,9 @@ function saljiime(x,y)
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+
+
+        {/* odavde 
         <h2>{StringElement}</h2>
         {jsxElement}
         {jsxVariableEL}
@@ -43,21 +54,13 @@ function saljiime(x,y)
           <ConstantFunctionGreetings></ConstantFunctionGreetings>
           <MyGoal></MyGoal>
         </div>
-        
 
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        dovde*/}
+        <Day4Component></Day4Component>
+
       </header>
     </div>
+  
   );
 }
 
